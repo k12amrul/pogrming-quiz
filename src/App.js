@@ -17,8 +17,11 @@ function App() {
         children : [
           {
             path : 'topics',
-            element : <Topics></Topics>,
-            loader:async () =>  fetch('https://openapi.programming-hero.com/api/quiz')
+            element : <Topics
+            ></Topics>,
+            loader:async () =>   fetch('https://openapi.programming-hero.com/api/quiz')
+
+            
 
 
           },
@@ -34,7 +37,7 @@ function App() {
     
           },
           {
-            path: "/topics/Id",
+            path: "/topics/:Id",
             element:  <Siglequize></Siglequize>,
             loader :async ({params}) =>{
               return fetch(`https://openapi.programming-hero.com/api/quiz/${params.Id}`)

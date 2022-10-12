@@ -1,11 +1,26 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Quizoption from '../Quizoption/Quizoption';
 
 const Siglequize = () => {
     const quiz =useLoaderData()
-    console.log(quiz)
+    // const {data.questions,questions}=quiz
+    // console.log(questions)
+    const quizes=quiz.data.questions
+    console.log(quizes);
     return (
         <div>
+            {
+                quizes.map(quiz => <Quizoption 
+                 name={quiz.name}
+                quiz={quiz}
+                // options={options}
+                >
+
+                </Quizoption>
+                
+                )
+            }
             
         </div>
     );

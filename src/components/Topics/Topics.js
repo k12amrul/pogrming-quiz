@@ -6,10 +6,10 @@ import './Topics.css'
 const Topics = () => {
     const topics = useLoaderData()
     // console.log(topics.data.length)
-    console.log(topics)
+   // console.log(topics)
     const  topics1=topics.data
-    const { name,id}=topics1
-    console.log(topics1?.name)
+    //const { name,id}=topics1
+    //console.log(topics1?.name)
 
     return (
         
@@ -27,7 +27,7 @@ const Topics = () => {
               <h2 className="card-title">{singletopic.name}</h2>
               <p>If a dog chews shoes whose shoes does he choose?</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary"> <Link to={`/topics/${id}`}> Start Quiz</Link> </button>
+                <button className="btn btn-primary"> <Link to={`/topics/${singletopic.id}`}> Start Quiz</Link> </button>
               </div>
             </div>
           </div>
