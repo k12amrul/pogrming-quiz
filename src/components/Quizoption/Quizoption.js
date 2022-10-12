@@ -7,15 +7,15 @@ const Quizoption = ({quiz}) => {
     // console.log(options);
     const corectAnswer = (Answer)=>{
         if(Answer === correctAnswer){
-            toast.success(`ss`)
-            console.log('ssss')
-            alert('s')
+            toast.success('Successfully toasted!')
+            alert( correctAnswer)
+           
+            
+            
         }
         else{
-            alert('22')
-            toast('11')
-            toast.success(`rr`)
-            console.log('rrr')
+           alert("wrong Answer")
+            
 
         }
         // console.log(Answer)

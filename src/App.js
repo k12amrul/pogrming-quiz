@@ -48,7 +48,7 @@ function App() {
           },
           {
             path: "*",
-            element: <h1>nnnnnnnnnnn</h1>,
+            element: <h1>no data in this page</h1>,
     
           },
 
