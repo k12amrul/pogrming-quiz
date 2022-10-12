@@ -22,7 +22,7 @@ const Header = () => {
 </div>
 
 <div className='flex'>
-<img className='w-30%' src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=740&t=st=1665577095~exp=1665577695~hmac=7d34e5cbcc9ca63f07d94908f1decd598d51afa16e0564df0d54c8d178d2267f" alt="" />
+<img className='w-10%' src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=740&t=st=1665577095~exp=1665577695~hmac=7d34e5cbcc9ca63f07d94908f1decd598d51afa16e0564df0d54c8d178d2267f" alt="" />
 <h1 className='text-4xl'>In this website we have presented various topics of programming language in a simple way so that beginners can learn it easily</h1>
 </div>
         
