@@ -25,7 +25,7 @@ const Topics = () => {
             <figure><img  className='imgg bg-gray-400' src={singletopic.logo} alt="Shoes" /></figure>
             <div className="card-body">
               <h2 className="card-title">{singletopic.name}</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              
               <div className="card-actions justify-end">
                 <button className="btn btn-primary"> <Link to={`/topics/${singletopic.id}`}> Start Quiz</Link> </button>
               </div>
