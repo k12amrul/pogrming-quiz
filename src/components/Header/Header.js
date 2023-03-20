@@ -31,12 +31,3 @@ const Header = () => {
 };
 
 export default Header;
-
-{/* <nav>
-            <h1>Header Header</h1>
-            <Link to={'/'}>Home</Link>
-            <Link to={'/topics'}>Topics</Link>
-            <Link to={'/blog'}>Blog</Link>
-            <Link to={'/st'}>Statistics</Link>
-            
-        </nav> */}

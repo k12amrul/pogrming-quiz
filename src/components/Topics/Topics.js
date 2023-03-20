@@ -6,7 +6,7 @@ import './Topics.css'
 const Topics = () => {
     const topics = useLoaderData()
     // console.log(topics.data.length)
-   // console.log(topics)
+   console.log(topics)
     const  topics1=topics.data
     //const { name,id}=topics1
     //console.log(topics1?.name)

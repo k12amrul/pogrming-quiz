@@ -7,9 +7,10 @@ const Siglequize = () => {
     // const {data.questions,questions}=quiz
     // console.log(questions)
     const quizes=quiz.data.questions
-    console.log(quizes);
+    console.log(quiz);
     return (
         <div>
+            <h1>{quiz.name}</h1>
             {
                 quizes.map(quiz => <Quizoption 
                  name={quiz.name}

@@ -23,7 +23,7 @@ const Quizoption = ({quiz}) => {
         // console.log(Answer)
     }
     
-    console.log(id , correctAnswer, question ,)
+    // console.log(id , correctAnswer, question ,)
     return (
         <div className=''>
             <h1> {question}</h1><FontAwesomeIcon icon="fa-solid fa-eye" />
